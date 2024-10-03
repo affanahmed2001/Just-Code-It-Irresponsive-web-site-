@@ -1,0 +1,412 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.navBar {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(48, 42, 42);
+    padding: 10px;
+
+}
+
+.left {
+    border: 2px solid rgba(161, 144, 139, 0.945);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.right {
+    width: 50%;
+    padding: 5px;
+}
+
+.right ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+    background-color: rgb(75, 77, 76);
+}
+
+.MainContainer {
+    background-image: url(mg/4.jpg);
+
+    background-position: center;
+    background-size: cover;
+    height: 664px;
+
+}
+
+#id {
+    font-size: 20px;
+}
+
+.MainContainer p {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    color: whitesmoke;
+    position: relative;
+}
+
+
+.MainContainer button {
+    background-color: rgb(184, 184, 5);
+    position: relative;
+    top: 35%;
+    left: 45%;
+    color: whitesmoke;
+    border: 2px solid rgb(184, 184, 5);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.frstDiv {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red;  */
+    width: 80%;
+    gap: 50px;
+    padding: 20px;
+    margin: auto;
+}
+
+.lef {
+    /* border: 2px solid red; */
+    width: 55%;
+}
+
+.lef h1 {
+    /* border-bottom: 5px solid rgba(203, 248, 3, 0.5); */
+    margin: 20px 0;
+}
+
+.lef p {
+    font-size: 18px;
+}
+
+.lef button {
+    background-color: rgb(184, 184, 5);
+    color: whitesmoke;
+    border: 2px solid rgb(184, 184, 5);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+.div {
+    width: 36%;
+    height: 5px;
+    background-color: rgb(221, 221, 72);
+    margin-bottom: 20px;
+}
+
+
+.ryt {
+    /* border: 2px solid red; */
+    width: 40%;
+}
+
+.ryt img {
+    height: 300px;
+    width: 100%;
+}
+
+.scndDiv {
+    /* border: 2px solid red; */
+    width: 80%;
+    /* gap: 50px; */
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(230, 224, 224, 0.5);
+}
+
+.divi {
+    width: 13%;
+    height: 5px;
+    background-color: rgb(221, 221, 72);
+    margin-bottom: 20px;
+}
+
+.maint {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.maint h1 {
+    color: rgb(230, 230, 8);
+    font-size: 50px;
+}
+
+.maint h1 span {
+    color: rgba(250, 250, 4, 0.6);
+}
+
+.lf {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.lfi {
+    padding-right: 15px;
+}
+
+.mid {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.midi {
+    padding-right: 15px;
+}
+
+.rt {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.rti {
+    padding-right: 15px;
+}
+
+.thrdMain {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#div {
+    width: 30%;
+    height: 5px;
+    background-color: rgb(221, 221, 72);
+    margin-bottom: 20px;
+}
+
+.ft {
+    /* border: 2px solid red; */
+    width: 48%;
+}
+
+/*.ft p {
+     font-size: 20px; 
+}*/
+
+.ftI {
+    display: flex;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    padding: 35px 0;
+}
+
+.ftIi img {
+    height: 80px;
+    width: 120px;
+}
+
+
+.ftII {
+    display: flex;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+
+}
+
+.ftIIi img {
+    height: 60px;
+    width: 60px;
+    margin: 0 25px;
+
+}
+
+
+
+.ft button {
+    background-color: rgb(184, 184, 5);
+    color: whitesmoke;
+    border: 2px solid rgb(184, 184, 5);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px 55px 0 55px;
+
+}
+
+.sd {
+    /* border: 2px solid red; */
+    width: 48%;
+}
+
+
+.sdI {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    /* gap: 30px; */
+    /* height: 180px; */
+}
+
+.sdIi {
+    width: 50%;
+
+
+}
+
+.sdIii {
+    width: 40%;
+    /* border: 2px solid red; */
+}
+
+.sd img {
+    height: 112px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+
+
+.sdII {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    /* gap: 30px; */
+    /* height: 180px; */
+}
+
+.sdIIi {
+    width: 50%;
+
+
+}
+
+.sdIIii {
+    width: 40%;
+    /* border: 2px solid red; */
+}
+
+.sd img {
+    height: 112px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+
+
+
+
+.sd button {
+    background-color: rgb(184, 184, 5);
+    color: whitesmoke;
+    border: 2px solid rgb(184, 184, 5);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 55px;
+
+}
+
+.frthDiv {
+    background-image: url(mg/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.mn {
+    position: absolute;
+    /* top: 25%; */
+    /* left: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+
+.mn h1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.ffth {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 37, 37);
+    padding: 30px 30px;
+}
+
+.f {
+    width: 30%;
+    color: whitesmoke;
+    /* border: 2px solid red; */
+    text-align: right;
+    font-size: 20px;
+}
+
+.r {
+    width: 20%;
+    background-color: rgb(184, 184, 5);
+    /* border: 2px solid red; */
+    padding: 5px 20px;
+}
+
+.r i {
+    font-size: 25px;
+    background-color: rgb(184, 184, 5);
+}
+
+.r i :hover {
+    background-color: rgb(184, 184, 5);
+    color: white;
+}
